@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>haj</title>
+    <link rel="stylesheet" href="haj.css">
+</head>
+<body>
+    <div class="container">
+        <h1>أذكار الحج</h1>
+        <div class="dhikr-container">
+            <div class="dhikr-item">
+                <h2>التلبية</h2>
+                <button class="dhikr-button" onclick="incrementCount('tahlil')">لبيك اللهم لبيك</button>
+                <p>عدد التكرار: <span id="tahlil-count">0</span></p>
+            </div>
+
+            <div class="dhikr-item">
+                <h2>التكبير</h2>
+                <button class="dhikr-button" onclick="incrementCount('takbir')">الله أكبر</button>
+                <p>عدد التكرار: <span id="takbir-count">0</span></p>
+            </div>
+
+            <div class="dhikr-item">
+                <h2>التحميد</h2>
+                <button class="dhikr-button" onclick="incrementCount('tahmeed')">الحمد لله</button>
+                <p>عدد التكرار: <span id="tahmeed-count">0</span></p>
+            </div>
+
+            <div class="dhikr-item">
+                <h2>التسبيح</h2>
+                <button class="dhikr-button" onclick="incrementCount('tasbeeh')">سبحان الله</button>
+                <p>عدد التكرار: <span id="tasbeeh-count">0</span></p>
+            </div>
+
+            <div class="dhikr-item">
+                <h2>الاستغفار</h2>
+                <button class="dhikr-button" onclick="incrementCount('istighfar')">أستغفر الله</button>
+                <p>عدد التكرار: <span id="istighfar-count">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="haj.js"></script>
+</body>
+</html>
